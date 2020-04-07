@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: rebeccapurple;
+
+}
+
+
+text{
+    text-align: center;
+
+}
+a {
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    clear: both;
+}
