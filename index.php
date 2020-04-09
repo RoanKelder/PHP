@@ -6,13 +6,8 @@
     <title>PHP</title>
 </head>
 <body>
-<a href="H02/Opdracht1.php" >Opdracht1</a>
-<br>
-<a href="H02/Opdracht2.php" >Opdracht2</a>
-<br>
-<a href="H02/Opdracht3.php" >Opdracht3</a>
-<br>
-<a href="H02/Opdracht4.php" >Opdracht4</a>
+<a href="H02/indexH02.html">H02</a>
+<a href="H03/indexH03.html">H03</a>
 
 </body>
 </html>
