@@ -1,10 +1,14 @@
 <?php
 
-function celsiusNaarFahrenheit($a ) {
-    $b = 3;
-    $c = $a / $b;
-    echo $a. "/" .$b. "=".$c;
+
+function celsiusnaarfahrenheit($celsius)
+{
+    $fahrenheit = ($celsius * 1.8) + 32;
+
+    return $celsius . " graden Celsius = " . $fahrenheit . " Fahrenheit.";
 }
 
-celsiusNaarFahrenheit(3);
+echo celsiusnaarfahrenheit(10);
+
+
 
