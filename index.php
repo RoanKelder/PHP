@@ -14,6 +14,8 @@
 <a href="H04/indexH04.html">H04</a>
 <br>
 <a href="H05/indexH05.html">H05</a>
+<br>
+<a href="H06/indexH06.html">H06</a>
 
 </h1>
 
