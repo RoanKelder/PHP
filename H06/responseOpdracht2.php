@@ -13,27 +13,26 @@
 </html>
 
 <?php
-require 'Database.php';
 
-if(isset($_POST['mailadres']) && isset($_POST['wachtwoord'])){
-    $email = $_POST['mailadres'];
+require 'mysqlenphp.php';
+
+if(isset($_POST['email']) && isset($_POST['wachtwoord'])){
+
+    $email = $_POST['email'];
     $wachtwoord = $_POST['wachtwoord'];
-    $query = "SELECT * FROM login WHERE email = 'mailadres' AND wachtwoord = 'wachtwoord'";
-    $stmt = $conn->prepare($query) or die('Error!');
-    $stmt->execute( ) or die ('Error 2');
+    $query = "SELECT * FROM inloggegevens2 WHERE  naam = '$email' AND wachtwoord = '$wachtwoord'";
+    exit($query);
+    $stmt = $conn->prepare($query) or die('Error1');
+    $stmt->execute() or die ('Error 2');
     $rows = $stmt->rowCount();
+
     echo 'Aantal matches: ' . $rows;
-
-    if ($rows == 1) {
-        echo 'Welkom!';
+    if ($rows == 1){
+        echo 'Welkom';
+    } else {
+        echo 'Geen toegang';
     }
-    else{
-        echo 'Geen toegang!';
-    }
-
 }
-
-?>
 
 
 
