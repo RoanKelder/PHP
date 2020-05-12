@@ -31,6 +31,3 @@ if(isset($_POST['mail']) && isset($_POST['wachtwoord'])){
         echo 'Geen toegang';
     }
 }
-
-
-

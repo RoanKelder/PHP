@@ -16,7 +16,8 @@
 <a href="H05/indexH05.html">H05</a>
 <br>
 <a href="H06/indexH06.html">H06</a>
-
+<br>
+<a href="H07/Opdracht1.html">H07</a>
 </h1>
 
 </body>
