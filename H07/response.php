@@ -24,10 +24,15 @@ if(isset($_POST['mail']) && isset($_POST['wachtwoord'])){
     $stmt = $conn-> prepare($query) or die('Error1');
     $stmt-> execute() or die ('Error 2');
     $rows = $stmt-> rowCount();
+
     echo 'Aantal matches: ' . $rows;
     if ($rows == 1){
         echo 'Welkom';
+        $session["user"] = $_POST["naam"];
+        header('location: website.php');
+
     } else {
         echo 'Geen toegang';
+        header('location : Inlogscherm.php');
     }
 }
