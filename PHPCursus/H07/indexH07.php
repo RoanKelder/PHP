@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,18 +22,13 @@ if(isset($_GET["loguit"])){
 
 <h1>inlog</h1>
 
-<form action="inlogewebsite.php" method="post">
-    E-mail: <input type="text" name="naam"><br>
+<form action="response.php" method="post">
+    E-mail: <input type="text" name="mail"><br>
     Wachtwoord: <input type="password" name="wachtwoord"><br>
     <input type="submit" value="login" name="knop"><br>
 </form>
 
-<br>
-<a href="H07.php"><button type="button">Hooftstuk 7 index</button></a>
-</body>
-</html></title>
-</head>
-<body>
+
 
 </body>
 </html>
