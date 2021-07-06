@@ -1,0 +1,77 @@
+/*
+ Theme Name:  scope-Child
+ Theme URI:
+ Description:  scope-Child Theme
+ Author:       Roan Kelder
+ Author URI:
+ Template:     scope
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:
+ Text Domain:  scope-child
+*/
+body{
+    background-color: white;
+}
+
+/*Navbar And Header*/
+a.nav-link{
+ contrast;
+}
+
+.home-section section-contact{
+    background-color: white;
+}
+
+.site-branding.site-logo {
+    background-color: black;
+
+}
+.site-title-a { color:black;
+
+}
+
+.header-page-title{
+
+    color: mediumspringgreen;
+}
+
+.header-main {
+background-color: black;
+}
+
+#primary-menu {
+background-color:black;
+}
+
+
+.navbar-header {
+    background-color: black ;
+}
+
+
+/*Widgets*/
+.widget {
+    border: solid 2px black;
+}
+
+/*Post's*/
+
+.content-index-inner {
+    border: solid 2px black;
+    background-color: ;
+}
+
+/*Footer*/
+#colophon{
+    background-color: white;
+}
+
+.conatainer-fluid.footer-bar{
+    background-color: black ;
+}
+
+p{
+    color: black;
+}

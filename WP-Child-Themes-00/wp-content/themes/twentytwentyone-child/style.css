@@ -1,0 +1,93 @@
+/*
+ Theme Name:  twentytwentyone-Child
+ Theme URI:
+ Description:  twentytwentyone-Child Theme
+ Author:       Roan Kelder
+ Author URI:
+ Template:     twentytwentyone
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:
+ Text Domain:  twentytwentyone-child
+*/
+body{
+    background-color: white;
+}
+
+
+
+/*Navbar And Header*/
+.site-branding.site-logo {
+    background-color: lightseagreen;
+
+}
+.site-title-a { color:black;
+
+}
+
+.header-page-title{
+
+    color: mediumspringgreen;
+}
+
+.header-main {
+background-color: lightseagreen;
+
+}
+
+#primary-menu {
+background-color: white;
+}
+
+
+.navbar-header {
+    background-color: lightseagreen;
+}
+
+
+/*Widgets*/
+
+/*.widget {*/
+/*    border: solid 2px black;*/
+/*}*/
+
+/*#widget_pages{*/
+/*    background-color: black;*/
+/*    border: solid 2px white;*/
+/*}*/
+/*#widget_categories{*/
+/*    background-color: black;*/
+/*    border: solid 2px white;*/
+/*}*/
+/*#widget_calendar{*/
+/*    background-color: black;*/
+/*    border: solid 2px white;*/
+/*}*/
+
+/*#widget_archive {*/
+/*    background-color: black;*/
+/*    border: solid 2px white;*/
+/*}*/
+
+/*Post's*/
+
+.content-index-inner {
+    border: solid 2px black;
+    background-color: ;
+}
+
+/*Footer*/
+#colophon {
+    background-color: black;
+}
+.site-footer{
+    background-color:black;
+}
+.site-name {
+    color: white;
+}
+
+.conatainer-fluid.footer-bar{
+    background-color: black ;
+}
