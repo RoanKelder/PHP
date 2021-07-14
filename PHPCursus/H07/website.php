@@ -33,7 +33,7 @@ if(isset ($_SESSION["user"])){
 ?>
 <br>
 <P><a href="admindeel.php">admindeel</a></P>
-<p><a href="Inlogscherm.php?loguit"><button type="button">uitloggen</button></a></p>
+<p><a href="indexH07.php?loguit"><button type="button">uitloggen</button></a></p>
 
 </body>
 </html>
