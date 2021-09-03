@@ -1,0 +1,16 @@
+body{
+    background-color: lightseagreen;
+}
+
+td{font-size: 20px;
+    border: black solid 2px;
+
+
+}
+tr{
+    padding-left: 0px;
+}
+
+p{
+    font-size: 25px;
+}
