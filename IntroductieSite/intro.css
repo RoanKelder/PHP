@@ -23,5 +23,12 @@ p{
 }
 
 H1{
+    padding-top: 20px;
     text-align: center;
+}
+header{
+    background-image: url("resources/codegif.gif" );
+    color: white;
+    height: 75px;
+
 }
